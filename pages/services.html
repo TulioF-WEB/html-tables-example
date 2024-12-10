@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <title>Services Page</title>
+</head>
+<body>
+    <nav>
+        <a href="#">
+            <picture>
+                <!-- SVG version for all scenarios due to scalability and efficiency -->
+                <source srcset="../assets/logo/ECO_logo.svg" type="image/svg+xml" />
+                <!-- High resolution PNG for large screens -->
+                <source srcset="../assets/logo/ECO_logo_big.png" media="(min-width: 1024px)" type="image/png" />
+                <!-- Small PNG for medium screens -->
+                <source srcset="../assets/logo/ECO_logo_small.png" media="(min-width: 768px)" type="image/png" />
+                <!-- High resolution JPG for small screens (lower priority than PNG) -->
+                <source srcset="../assets/logo/ECO_logo_big.jpg" media="(min-width: 480px)" type="image/jpg" />
+                <!-- Fallback small JPG for all other scenarios or if none of the above are supported -->
+                <img src="../assets/logo/ECO_logo_small.jpg" alt="ECO company logo">
+            </picture>
+        </a>
+        <span class="spacer"></span>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="#" id="current-page">Services</a></li>
+            <li id="last-item"><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="left-float">Test Right</div>
+        <div class="right-float">Test Left</div>
+        <div class="cleared-content" style="margin-top: 15px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt ex nam assumenda, repudiandae temporibus blanditiis quisquam. Debitis architecto voluptates harum neque ipsa vero exercitationem quia possimus amet! Eius, et.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita cum repellat accusantium, ipsa consectetur consequatur nihil, quis alias repellendus neque veritatis omnis dolorem laudantium illum quibusdam impedit. Non, maxime nisi!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi molestias itaque impedit in! Pariatur assumenda aspernatur neque voluptate at, sint nulla? Doloribus dicta saepe eius minima culpa amet similique odit!
+        </div>
+    </div>
+    <footer aria-label="Policies, about us and Frequently Asked Questions"></footeraria-label>
+        &copy; My Webpage |
+        <a href="https://treecanada.ca/privacy-policy/">Privacy Policy</a>
+        <a href="https://treecanada.ca/about-us/contact-us/">Who we are</a>
+        <a href="https://treecanada.ca/">Terms</a>
+        <a href="https://treecanada.ca/resources/trees-of-canada/">FAQ</a>
+    </footer>
+</body>
+</html>

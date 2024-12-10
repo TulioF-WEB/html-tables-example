@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <title>About Page</title>
+</head>
+<body>
+    <nav>
+        <a href="#">
+            <picture>
+                <!-- SVG version for all scenarios due to scalability and efficiency -->
+                <source srcset="../assets/logo/ECO_logo.svg" type="image/svg+xml" />
+                <!-- High resolution PNG for large screens -->
+                <source srcset="../assets/logo/ECO_logo_big.png" media="(min-width: 1024px)" type="image/png" />
+                <!-- Small PNG for medium screens -->
+                <source srcset="../assets/logo/ECO_logo_small.png" media="(min-width: 768px)" type="image/png" />
+                <!-- High resolution JPG for small screens (lower priority than PNG) -->
+                <source srcset="../assets/logo/ECO_logo_big.jpg" media="(min-width: 480px)" type="image/jpg" />
+                <!-- Fallback small JPG for all other scenarios or if none of the above are supported -->
+                <img src="../assets/logo/ECO_logo_small.jpg" alt="ECO company logo">
+            </picture>
+        </a>
+        <span class="spacer"></span>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#" id="current-page">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li id="last-item"><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="floating-element2">Test Element</div>
+        <p class="parag-one">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum nulla non eros placerat, ut feugiat massa tempus. 
+            Aliquam erat volutpat. Fusce malesuada augue vel vehicula pellentesque. Duis id interdum enim. Sed sed urna lacus. 
+            Cras sed nunc sit amet nulla volutpat malesuada.
+            Integer nec nulla a lacus malesuada fringilla. In hac habitasse platea dictumst. Suspendisse potenti. 
+            Aenean auctor, risus nec auctor scelerisque, libero ligula blandit turpis, nec aliquam sem ante in justo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic in maxime totam voluptates, facilis deserunt ratione delectus dolores eaque sint culpa veritatis saepe error quis placeat sunt nemo consequatur voluptatum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam autem possimus repudiandae nulla temporibus repellat accusamus reprehenderit aspernatur sunt totam.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum nulla non eros placerat, ut feugiat massa tempus. 
+                Aliquam erat volutpat. Fusce malesuada augue vel vehicula pellentesque. Duis id interdum enim. Sed sed urna lacus. 
+                Cras sed nunc sit amet nulla volutpat malesuada.
+                Integer nec nulla a lacus malesuada fringilla. In hac habitasse platea dictumst. Suspendisse potenti. 
+                Aenean auctor, risus nec auctor scelerisque, libero ligula blandit turpis, nec aliquam sem ante in justo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic in maxime totam voluptates, facilis deserunt ratione delectus dolores eaque sint culpa veritatis saepe error quis placeat sunt nemo consequatur voluptatum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam autem possimus repudiandae nulla temporibus repellat accusamus reprehenderit aspernatur sunt totam.
+        </p>
+    </div>
+    <footer aria-label="Policies, about us and Frequently Asked Questions"></footeraria-label>
+        &copy; My Webpage |
+        <a href="https://treecanada.ca/privacy-policy/">Privacy Policy</a>
+        <a href="https://treecanada.ca/about-us/contact-us/">Who we are</a>
+        <a href="https://treecanada.ca/">Terms</a>
+        <a href="https://treecanada.ca/resources/trees-of-canada/">FAQ</a>
+    </footer>
+</body>
+</html>
