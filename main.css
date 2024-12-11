@@ -123,6 +123,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 thead th {
@@ -156,4 +157,21 @@ tr:nth-child(even) td {
 }
 tr:nth-child(odd) td {
     background-color: #a1e4ff; /*affecting the odd rows?*/
+}
+#headerone {
+    background-color: #419dff;
+    color: white;
+}
+#classone {
+    background-color: white;
+    color: #419dff;
+}
+#dataone {
+    background-color: white;
+   font-display: italic;
+}
+#players-table th {
+    font-size: 18px;
+    background-color: rgb(250, 134, 250);
+    color: black;
 }

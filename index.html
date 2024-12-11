@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
-    <title>Basic Nav Example</title>
+    <title>Table example one</title>
 </head>
+
 <body>
     <nav aria-label="Page navigation"></navaria-label>
         <a href="#">
@@ -34,39 +36,39 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Course</th>
-                        <th colspan="2">Time</th>
-                        <th>Room</th>
-                        <th>Day</th>
+                        <th id="headerone">Course</th>
+                        <th colspan="2" id="headerone">Time</th> <!-- use colspan to increase number of cols-->
+                        <th id="headerone">Room</th>
+                        <th id="headerone">Day</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td rowspan="2">English II</td>
-                        <td>9:00</td>
-                        <td>11:00</td>
-                        <td>L2201</td>
-                        <td>Monday</td>
+                        <td rowspan="2" id="classone">English II</td>
+                        <td id="dataone">9:00</td>
+                        <td id="dataone">11:00</td>
+                        <td id="dataone">L2201</td>
+                        <td id="dataone">Monday</td>
                     </tr>
                     <tr>
-                        <td>9:00</td>
-                        <td>11:00</td>
-                        <td>L2201</td>
-                        <td>Wednesday</td>
+                        <td id="dataone">9:00</td>
+                        <td id="dataone">11:00</td>
+                        <td id="dataone">L2201</td>
+                        <td id="dataone">Wednesday</td>
                     </tr>
                     <tr>
-                        <td>Geography</td>
-                        <td>11:00</td>
-                        <td>12:45</td>
-                        <td>G107</td>
-                        <td>Tuesday</td>
+                        <td id="classone">Geography</td>
+                        <td id="dataone">11:00</td>
+                        <td id="dataone">12:45</td>
+                        <td id="dataone">G107</td>
+                        <td id="dataone">Tuesday</td>
                     </tr>
                     <tr>
-                        <td>Biology</td>
-                        <td>9:00</td>
-                        <td>11:00</td>
-                        <td>B302</td>
-                        <td>Friday</td>
+                        <td id="classone">Biology</td>
+                        <td id="dataone">9:00</td>
+                        <td id="dataone">11:00</td>
+                        <td id="dataone">B302</td>
+                        <td id="dataone">Friday</td>
                     </tr>
                 </tbody>
             </table>
@@ -80,4 +82,5 @@
             <a href="https://treecanada.ca/resources/trees-of-canada/">FAQ</a>
         </footer>
 </body>
+
 </html>

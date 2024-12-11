@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../main.css">
-    <title>Services Page</title>
+    <title>Third table</title>
+    <style>
+        #players-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        #players-table th,
+        #players-table td {
+            border: 2px solid #ff9bee;
+            padding: 15px;
+        }
+
+        #players-table td {
+            vertical-align: middle;
+        }
+
+        #playermain {
+            font-size: 20px;
+            font-weight: bold;
+            color: #0078D7;
+            /*Color for the main text in table */
+            background-color: white;
+        }
+
+        #players-table img {
+            max-width: 100px;
+            height: auto;
+        }
+
+        #datainfo {
+            background-color: white;
+        }
+    </style>
 </head>
+
 <body>
     <nav>
         <a href="#">
@@ -26,25 +62,97 @@
         <ul>
             <li><a href="../index.html">Home</a></li>
             <li><a href="./about.html">About</a></li>
-            <li><a href="#" id="current-page">Services</a></li>
+            <li><a href="./services.html">Services</a></li>
             <li id="last-item"><a href="./contact.html">Contact</a></li>
         </ul>
     </nav>
-    <div class="container">
-        <div class="left-float">Test Right</div>
-        <div class="right-float">Test Left</div>
-        <div class="cleared-content" style="margin-top: 15px;">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nesciunt ex nam assumenda, repudiandae temporibus blanditiis quisquam. Debitis architecto voluptates harum neque ipsa vero exercitationem quia possimus amet! Eius, et.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita cum repellat accusantium, ipsa consectetur consequatur nihil, quis alias repellendus neque veritatis omnis dolorem laudantium illum quibusdam impedit. Non, maxime nisi!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi molestias itaque impedit in! Pariatur assumenda aspernatur neque voluptate at, sint nulla? Doloribus dicta saepe eius minima culpa amet similique odit!
-        </div>
-    </div>
-    <footer aria-label="Policies, about us and Frequently Asked Questions"></footeraria-label>
-        &copy; My Webpage |
-        <a href="https://treecanada.ca/privacy-policy/">Privacy Policy</a>
-        <a href="https://treecanada.ca/about-us/contact-us/">Who we are</a>
-        <a href="https://treecanada.ca/">Terms</a>
-        <a href="https://treecanada.ca/resources/trees-of-canada/">FAQ</a>
-    </footer>
+    <table aria-label="Example of players and their roles" id="players-table">
+        <thead>
+            <tr>
+                <th colspan="2" id="header-player">Player</th> <!-- Headers for table with specific css-->
+                <th id="header-position">Position</th>
+                <th id="header-team">Team</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="datainfo">
+                    <img src="https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/8d/T1_Faker_2024_Split_2.png/revision/latest?cb=20240618150258"
+                        alt="Faker">
+                <td id="playermain">Faker</td>
+                </td>
+                <td id="datainfo">
+                    Mid
+                </td>
+                <td id="datainfo">
+                    SK Telecom T1
+                </td>
+            </tr>
+            <tr>
+                <td id="datainfo">
+                    <img src="https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/f/f5/HLE_Viper_2024_Split_2.png/revision/latest?cb=20240618125454"
+                        alt="Viper">
+                <td id="playermain">Viper</td>
+                </td>
+                <td id="datainfo">
+                    ADCarry
+                </td>
+                <td id="datainfo">
+                    Hanwha Life
+                </td>
+            </tr>
+            <tr>
+                <td id="datainfo">
+                    <img src="https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/2/20/GEN_Chovy_2024_Split_1.png/revision/latest/scale-to-width-down/630?cb=20240305182349"
+                        alt="Chovy">
+                <td id="playermain">Chovy</td>
+                </td>
+                <td id="datainfo">
+                    Mid
+                </td>
+                <td id="datainfo">
+                    Gen.G
+                </td>
+            </tr>
+            <tr>
+                <td id="datainfo">
+                    <img src="https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/9/92/T1_Keria_2024_Split_2.png/revision/latest?cb=20240618150254"
+                        alt="Keria">
+                <td id="playermain">Keria</td>
+                </td>
+                <td id="datainfo">
+                    Support
+                </td>
+                <td id="datainfo">
+                    SK Telecom T1
+                </td>
+            </tr>
+            <tr>
+                <td id="datainfo">
+                    <img src="https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/8/8a/HLE_Delight_2024_Split_2.png/revision/latest?cb=20240618125452"
+                        alt="Delight">
+                <td id="playermain">Delight</td>
+                </td>
+                <td id="datainfo">
+                    Support
+                </td>
+                <td id="datainfo">
+                    Hanwha Life
+                </td>
+            </tr>
+            <tr>
+                <td id="datainfo">
+                    <img src="https://static.wikia.nocookie.net/lolesports_gamepedia_en/images/b/b3/T1_Gumayusi_2024_Split_2.png/revision/latest?cb=20240618150256"
+                        alt="Gumayusi">
+                <td id="playermain">Gumayusi</td>
+                </td>
+                <td id="datainfo">
+                    ADCarry
+                </td>
+                <td id="datainfo">
+                    SK Telecom T1
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
-</html>

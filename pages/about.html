@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../main.css">
-    <title>About Page</title>
+    <title>Table example two</title>
     <style>
         table {
             width: 100%;
             border-collapse: collapse;
             text-align: center;
         }
-        th, td {
+
+        th,
+        td {
             border: 1px solid #000;
             padding: 10px;
         }
+
         th {
             background-color: #d6eaf8;
         }
+
         td {
             background-color: #eaf2f8;
         }
+
         caption {
             margin-top: 10px;
             font-style: italic;
         }
+
         .hideheader {
             visibility: hidden;
         }
-       
+
+        #tableheadertwo {
+            text-align: center;
+        }
     </style>
 </head>
+
 <body>
     <nav>
         <a href="#">
@@ -50,11 +61,12 @@
         <span class="spacer"></span>
         <ul>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="#" id="current-page">About</a></li>
+            <li><a href="#" id="about.html">About</a></li>
             <li><a href="./services.html">Services</a></li>
             <li id="last-item"><a href="./contact.html">Contact</a></li>
         </ul>
     </nav>
+    <h2 aria-label="comparison between each product" id="tableheadertwo">Product Comparison Chart</h2>
     <table>
         <caption class="table2cap">Comparison of the features between the products</caption>
         <thead>
@@ -100,4 +112,5 @@
         <a href="https://treecanada.ca/resources/trees-of-canada/">FAQ</a>
     </footer>
 </body>
+
 </html>
