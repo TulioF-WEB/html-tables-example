@@ -5,6 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../main.css">
     <title>About Page</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+        }
+        th {
+            background-color: #d6eaf8;
+        }
+        td {
+            background-color: #eaf2f8;
+        }
+        caption {
+            margin-top: 10px;
+            font-style: italic;
+        }
+        .hideheader {
+            visibility: hidden;
+        }
+       
+    </style>
 </head>
 <body>
     <nav>
@@ -30,21 +55,43 @@
             <li id="last-item"><a href="./contact.html">Contact</a></li>
         </ul>
     </nav>
-    <div class="content">
-        <div class="floating-element2">Test Element</div>
-        <p class="parag-one">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum nulla non eros placerat, ut feugiat massa tempus. 
-            Aliquam erat volutpat. Fusce malesuada augue vel vehicula pellentesque. Duis id interdum enim. Sed sed urna lacus. 
-            Cras sed nunc sit amet nulla volutpat malesuada.
-            Integer nec nulla a lacus malesuada fringilla. In hac habitasse platea dictumst. Suspendisse potenti. 
-            Aenean auctor, risus nec auctor scelerisque, libero ligula blandit turpis, nec aliquam sem ante in justo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic in maxime totam voluptates, facilis deserunt ratione delectus dolores eaque sint culpa veritatis saepe error quis placeat sunt nemo consequatur voluptatum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam autem possimus repudiandae nulla temporibus repellat accusamus reprehenderit aspernatur sunt totam.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum nulla non eros placerat, ut feugiat massa tempus. 
-                Aliquam erat volutpat. Fusce malesuada augue vel vehicula pellentesque. Duis id interdum enim. Sed sed urna lacus. 
-                Cras sed nunc sit amet nulla volutpat malesuada.
-                Integer nec nulla a lacus malesuada fringilla. In hac habitasse platea dictumst. Suspendisse potenti. 
-                Aenean auctor, risus nec auctor scelerisque, libero ligula blandit turpis, nec aliquam sem ante in justo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic in maxime totam voluptates, facilis deserunt ratione delectus dolores eaque sint culpa veritatis saepe error quis placeat sunt nemo consequatur voluptatum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam autem possimus repudiandae nulla temporibus repellat accusamus reprehenderit aspernatur sunt totam.
-        </p>
-    </div>
+    <table>
+        <caption class="table2cap">Comparison of the features between the products</caption>
+        <thead>
+            <tr class="products">
+                <th class="hideheader"></th>
+                <th>Product A</th>
+                <th>Product B</th>
+                <th>Product C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Durability</td>
+                <td>10/10</td>
+                <td>5/10</td>
+                <td>7/10</td>
+            </tr>
+            <tr>
+                <td>Design</td>
+                <td>3/10</td>
+                <td>8/10</td>
+                <td>7/10</td>
+            </tr>
+            <tr>
+                <td>Usability</td>
+                <td>7/10</td>
+                <td>10/10</td>
+                <td>5/10</td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td>9/10</td>
+                <td>7/10</td>
+                <td>3/10</td>
+            </tr>
+        </tbody>
+    </table>
     <footer aria-label="Policies, about us and Frequently Asked Questions"></footeraria-label>
         &copy; My Webpage |
         <a href="https://treecanada.ca/privacy-policy/">Privacy Policy</a>
